@@ -20,7 +20,7 @@ var/
 # Serverless directories
 .serverless
 
-
+/.coverage
 .requirements-cache
 node_modules
 output/*

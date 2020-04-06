@@ -5,3 +5,7 @@ changelog:
 
 release:
 	semtag final -s minor
+
+test:
+	coverage run -m pytest
+	coverage report -m
